@@ -1,0 +1,6 @@
+stable-baselines3
+gymnasium
+matplotlib
+shapely
+dubins
+pyyaml

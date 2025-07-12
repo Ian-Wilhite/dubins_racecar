@@ -1,0 +1,18 @@
+agent:
+  type: rl
+  model_path: ppo_racecar
+env:
+  track_radius: 25
+  straight_length: 50
+  lane_width: 5
+  dt: 0.1
+  max_steps: 10000
+  min_turning_radius: 5.0
+  max_acceleration: 2.0
+  min_acceleration: -3.0
+  max_steering_rate_abs: 0.7853981633974483 # pi/4
+  initial_state:
+    x: 0.0 # Example: -half_straight
+    y: -25.0
+    theta: 0.0
+    v: 5.0
